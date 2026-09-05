@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 9</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tablas</h1>
+    <hr>
+    <h3>Tabla normal</h3>
+    <table>
+        <tr>/*cabeceras de la tabla*/;
+            <th>Provincia</th>
+            <th>Capital</th>
+            <th>Población</th>
+        </tr>
+        <tr>
+            <td>Corrientes</td>
+            <td>Corrientes</td>
+            <td>1.000.000</td>
+        </tr>
+        <tr>
+            <td>Misiones</td>
+            <td>Posadas</td>
+            <td>1.200.000</td>
+        </tr>
+    </table>
+    <hr>
+    <h3>Tabla con colspan</h3>
+    <table>
+        <tr>
+            <th colspan="2">Provincia y capital</th>
+            <th>Población</th>
+        </tr>
+        <tr>
+            <td colspan="2">Corrientes,Corrientes</td>
+            <td>1.000.000</td>
+        </tr>
+        <tr>
+            <td>Misiones</td>
+            <td>Posadas</td>
+            <td>1.200.000</td>
+        </tr>
+    </table>
+    <hr>
+    <h3>Tabla con rowspan</h3>
+        <table>
+        <tr>/*cabeceras de la tabla*/;
+            <th>Provincia</th>
+            <th>Capital</th>
+            <th>Población</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Corrientes</td>
+            <td>Corrientes</td>
+            <td>1.000.000</td>
+        </tr>
+        <tr>
+            <td>Goya</td>
+            <td>500.000</td>
+        </tr>
+        <tr>
+            <td>Misiones</td>
+            <td>Posadas</td>
+            <td>1.200.000</td>
+        </tr>
+
+</body>
+</html>
