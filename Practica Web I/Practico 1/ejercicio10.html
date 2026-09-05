@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 10</title>
+    <style>
+        #tabla3x3 {
+            th, tr, td{
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+        }
+        #tabla2x4 {
+            th, tr, td{
+                border: 1px solid red;
+                border-collapse: collapse;
+            }
+        }
+        #tablarara {
+            th, tr, td{
+                border: 1px solid blue;
+                border-collapse: collapse;
+                width: 100px;
+            }
+        }
+        #tablaespecial {
+            th, tr, td{
+                border: 1px solid green;
+                border-collapse: collapse;
+                width: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Tablas</h1>
+    <hr>
+    <h2>Tabla 3x3</h2>
+    <table id="tabla3x3">
+        <tr>
+            <th>columna 1</th>
+            <th>columna 2</th>
+            <th>columna 3</th>
+        </tr>
+        <tr>
+            <td>F1dato 1</td>
+            <td>F1dato 2</td>
+            <td>F1dato 3</td>
+        </tr>
+        <tr>
+            <td>F2dato 1</td>
+            <td>F2dato 2</td>
+            <td>F2dato 3</td>
+        </tr>
+        <tr>
+            <td>F3dato 1</td>
+            <td>F3dato 2</td>
+            <td>F3dato 3</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Tabla 2x4</h2>
+    <table id="tabla2x4">
+        <tr>
+            <th>columna 1</th>
+            <th>columna 2</th>
+            <th>columna 3</th>
+            <th>columna 4</th>
+        </tr>
+        <tr>
+            <td>F1dato 1</td>
+            <td>F1dato 2</td>
+            <td>F1dato 3</td>
+            <td>F1dato 4</td>
+        </tr>
+        <tr>
+            <td>F2dato 1</td>
+            <td>F2dato 2</td>
+            <td>F2dato 3</td>
+            <td>F2dato 4</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Tabla rara</h2>
+    <table id="tablarara">
+        <tr>
+            <th rowspan="3">A</th>
+            <th>B</th>
+            <th>C</th>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+        </tr>
+        <tr>
+            <td>F</td>
+            <td>G</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Tabla especial</h2>
+    <table id="tablaespecial">
+        <tr>
+            <th rowspan="2">A</th>
+            <th rowspan="4">B</th>
+            <th>C</th>
+        </tr>
+        <tr>
+            <td>D</td>
+            
+        </tr>
+        <tr>
+            <td rowspan="2" >G</td>
+            <td>H</td>
+            
+        </tr>
+    </table>
+</body>
+</html>
